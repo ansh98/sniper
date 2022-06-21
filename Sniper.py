@@ -5,17 +5,7 @@ from time import sleep
 from halo import Halo
 from style import style
 
-ascii = """
-  ______               ___            
- /_  __/________ _____/ (_)___  ____ _
-  / / / ___/ __ `/ __  / / __ \/ __ `/
- / / / /  / /_/ / /_/ / / / / / /_/ / 
-/_/_/_/__ \__,_/\__,_/_/_/ /_/\__, /  
- /_  __(_)___ ____  _________/____/   
-  / / / / __ `/ _ \/ ___/ ___/        
- / / / / /_/ /  __/ /  (__  )         
-/_/ /_/\__, /\___/_/  /____/          
-      /____/                          
+ascii = """    
 """
 
 parser = argparse.ArgumentParser(description='Set your Token and Amount example: "sniper.py -t 0x34faa80fec0233e045ed4737cc152a71e490e2e3 -a 0.2 -s 15"')
